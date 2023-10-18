@@ -50,8 +50,8 @@ print("=="*10)
 print(f"con una edad de 42 años y un salario de 50000: ", new_pred)
 print(f"La probabildad de compra es: ", new_prob)
 
-model_file = "model/classifier.pickle"
+model_file = "model/classifier2.pickle"
 pickle.dump(classifier, open(model_file, 'wb'))
 
-scaler_file = "model/sc.pickle"
+scaler_file = "model/sc2.pickle"
 pickle.dump(sc, open(scaler_file, 'wb'))
