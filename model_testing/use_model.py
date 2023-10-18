@@ -2,10 +2,8 @@ import pickle
 import numpy as np
 
 #Reading and consume our model and scaler binary files
-url_model = "../model/classifier.pickle"
-url_scaler = "../model/sc.pickle"
-#local_classifier = pickle.load(open('../model/classifier.pkl', 'rb'))
-#local_scaler = pickle.load(open('../model/sc.pkl', 'rb'))
+url_model = "model/classifier.pickle"
+url_scaler = "model/sc.pickle"
 
 with open(url_model, 'rb') as model:
     local_classifier = pickle.load(model)
